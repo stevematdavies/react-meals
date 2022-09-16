@@ -12,10 +12,10 @@ function App() {
           <Cart />
           <Header />
         </ModalContextProvider>
-      </CartContextProvider>
       <main>
         <Meals />
       </main>
+      </CartContextProvider>
     </Fragment>
   );
 }
